@@ -62,7 +62,7 @@ public class Calculator {
         } else if (discountAmount >= 100) {
             throw new ArithmeticException("Процент скидки не может быть равен или больше 100%");
         } else {
-            double purchaseDiscountAmount = purchaseAmount * (double)(100 - discountAmount) / 100.0;
+            double purchaseDiscountAmount = purchaseAmount * (double) (100 - discountAmount) / 100.0;
             System.out.println(purchaseDiscountAmount);
             return purchaseDiscountAmount;
         }
